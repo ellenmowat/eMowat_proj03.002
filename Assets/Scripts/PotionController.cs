@@ -15,32 +15,7 @@ public class PotionController : MonoBehaviour
     public PotionType potionType;
     public int potionModAmount = 0;
 
-    //make the potion look like it's floating
-
-    //record how long it's been floating
-    private float floatingTimer = 0f;
-    //determine how long we want it to float
-    private float floatingMax = 1f;
-    //up is pos, down is neg
-    private float floatingDir = 0.01f;
     
-    private void FixedUpdate()
-    {
-        if (floatingTimer < floatingMax)
-        {
-            //change the position of our current object
-            //x doesn't change, y increments by floatingDir
-            transform.position = new Vector2(transform.position.x, transform.position.y + floatingDir);
-            //add seconds to the timer every fixed update
-            floatingTimer += Time.fixedDeltaTime;
-        }
-        else
-        {
-            //change direction
-            floatingDir *= -1;
-            floatingTimer = 0;
-        }
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
