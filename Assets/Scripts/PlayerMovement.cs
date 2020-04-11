@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     bool jumpFlag = false;
     bool jump = false;
 
+    bool soundPlayed = false;
+
     // Update is called once per frame
     void Update()
     {
@@ -39,11 +41,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            if (animator.GetBool("IsJumping") == false)
+            jump = true;
+            animator.SetBool("IsJumping", true);
+
+            if (soundPlayed == false)
             {
                 AudioSource.PlayClipAtPoint(jumpClip, transform.position);
-                jump = true;
-                animator.SetBool("IsJumping", true);
+                soundPlayed = true;
             }
         }
     }
@@ -52,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("IsJumping", true);
         jump = false;
+        soundPlayed = false;
     }
 
     void FixedUpdate()

@@ -120,6 +120,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &27047371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2509449182420396150, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: GemStone - Purple (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d3ad1c6652796844db2533967c741c6c, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,15 +3024,6 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 7, y: 0, z: 0}
-    second:
-      m_TileIndex: 9
-      m_TileSpriteIndex: 9
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 2
@@ -2984,8 +3044,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 855a32ec98ffa9340a8c41205c58ff3d, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: fa90a593766a4d148844f88c6f78d6a6, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 3034dd55ba6576042956f96942e8a7b7, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: 8773153052416495698, guid: a2ad26a5ed5c81f4ea35e15deb2aa370,
@@ -3014,11 +3074,10 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 3021326687773017213, guid: a2ad26a5ed5c81f4ea35e15deb2aa370,
       type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -8213424671572768523, guid: a2ad26a5ed5c81f4ea35e15deb2aa370,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 40
+  - m_RefCount: 39
     m_Data:
       e00: 1
       e01: 0
@@ -3037,7 +3096,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 40
+  - m_RefCount: 39
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3378,6 +3437,75 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &2509449182292388739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2509449182420396150, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: GemStone - Purple
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509449182420396154, guid: d3ad1c6652796844db2533967c741c6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d3ad1c6652796844db2533967c741c6c, type: 3}
 --- !u!1001 &6306519490048195063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3393,7 +3521,7 @@ PrefabInstance:
     - target: {fileID: 6306519491119346955, guid: b7566954b97c08348a324c9052b46804,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6306519491119346955, guid: b7566954b97c08348a324c9052b46804,
         type: 3}
